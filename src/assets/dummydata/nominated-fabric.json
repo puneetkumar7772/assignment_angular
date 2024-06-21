@@ -1,0 +1,152 @@
+{
+    "graphs": {
+      "fabric_origin": {
+        "2023": {
+          "countries": ["India", "China", "Turkey", "Pakistan","Vietnam"],
+          "percentages": [46, 17, 17, 9.5,10]
+        },
+        "2022": {
+          "countries": ["India", "China", "Turkey", "Pakistan", "Vietnam"],
+          "percentages": [46, 17, 17, 9.5,2.2]
+        }
+      },
+      "nominated_weight": {
+        "2023": {
+          "nominated": 71.34,
+          "non_nominated": 28.66
+        },
+        "2022": {
+          "nominated": 71.34,
+          "non_nominated": 28.66
+        }
+      },
+      
+      "nominated_price": {
+        "2023": 2.84,
+        "2022": 1.77
+      }
+    },
+    "tables": {
+      "table_1": [
+        {
+          "fabric": "SYNTHETIC_W_22",
+          "top_mill": "CHINA",
+          "top_mill_percentage":"62.6%",
+          "top_production":"CHINA",
+          "top_production_percentage": "62.64%"
+        },
+        {
+          "fabric": "DENIM_POLY_ST_17",
+          "top_mill": "PAKISTAN",
+          "top_mill_percentage": "71.5%",
+          "top_production":"PAKISTAN",
+          "top_production_percentage": "21.64%"
+        },
+        {
+          "fabric": "VISCOSE_PE_001",
+          "top_mill": "CHINA",
+          "top_mill_percentage": "79.5%",
+          "top_production":"BANGLADESH",
+          "top_production_percentage": "24.64%"
+        },
+        {
+          "fabric": "CORDUROY_009",
+          "top_mill": "CHINA",
+          "top_mill_percentage": "80.2%",
+          "top_production":"PAKISTAN",
+          "top_production_percentage": "21.64%"
+        },
+        {
+          "fabric": "TWILL_183",
+          "top_mill": "BANGLADESH",
+          "top_mill_percentage": "70.9%",
+          "top_production":"CHINA",
+          "top_production_percentage": "56.2%"
+        },
+        {
+          "fabric": "DENIM_POLY_ST_17",
+          "top_mill": "PAKISTAN",
+          "top_mill_percentage": "71.9%",
+          "top_production":"Cambodia",
+          "top_production_percentage": "56.6%"
+        }
+      ],
+      "table_2": [
+        {
+          "fabric": "SYNTHETIC_W_22",
+          "2023_quality": "79.5%",
+          "2022_quality": "62.64%",
+          "difference": "5.34%"
+        },
+        {
+          "fabric": "DENIM_POLY_ST_17",
+          "2023_quality": "63.98%",
+          "2022_quality": "67.54%",
+          "difference": "-4.4%"
+        },
+        {
+          "fabric": "VISCOSE_PE_001",
+          "2023_quality": "79.5%",
+          "2022_quality": "2.85%",
+          "difference": "178.43%"
+        },
+        {
+          "fabric": "CORDUROY_009",
+          "2023_quality": "31.56%",
+          "2022_quality": "6%",
+          "difference": "9.50%"
+        },
+        {
+          "fabric": "TWILL_183",
+          "2023_quality": "7.84%",
+          "2022_quality": "2.34%",
+          "difference": "13.23%"
+        },
+        {
+          "fabric": "DENIM_POLY_ST_17",
+          "2023_quality": "79.5%",
+          "2022_quality": "9.40%",
+          "difference": "0.40%"
+        }
+      ],
+      "table_3": [
+        {
+          "fabric": "SYNTHETIC_W_22",
+          "2023_price_eur": 2.85,
+          "2022_price_eur": 0.85,
+          "difference": "34.66%"
+        },
+        {
+          "fabric": "DENIM_POLY_ST_17",
+          "2023_price_eur": 2.7,
+          "2022_price_eur": 2.34,
+          "difference": "15.38%"
+        },
+        {
+          "fabric": "VISCOSE_PE_001",
+          "2023_price_eur": 3.52,
+          "2022_price_eur": 4.34,
+          "difference": "178.43%"
+        },
+        {
+          "fabric": "CORDUROY_009",
+          "2023_price_eur": 4.09,
+          "2022_price_eur": 7.56,
+          "difference": "178.43%"
+        },
+        {
+          "fabric": "TWILL_183",
+          "2023_price_eur": 2.34,
+          "2022_price_eur": 1.23,
+          "difference": "13.23%"
+        },
+        {
+          "fabric": "DENIM_POLY_ST_17",
+          "2023_price_eur": 1.25,
+          "2022_price_eur": 1.98,
+          "difference": "178.43%"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,59 @@
+{
+  "countries": [
+    {
+      "name": "Bangladesh",
+      "quality": {
+        "presentYear": 70.4,
+        "pastYear": 67.2
+      },
+      "launchProductMix": {
+        "presentYear": 4.8,
+        "pastYear": 4.6
+      }
+    },
+    {
+      "name": "China",
+      "quality": {
+        "presentYear": 65.5,
+        "pastYear": 64.0
+      },
+      "launchProductMix": {
+        "presentYear": 5.0,
+        "pastYear": 4.7
+      }
+    },
+    {
+      "name": "India",
+      "quality": {
+        "presentYear": 82.6,
+        "pastYear": 80.4
+      },
+      "launchProductMix": {
+        "presentYear": 6.5,
+        "pastYear": 6.3
+      }
+    },
+    {
+      "name": "Pakistan",
+      "quality": {
+        "presentYear": 75.8,
+        "pastYear": 72.5
+      },
+      "launchProductMix": {
+        "presentYear": 5.3,
+        "pastYear": 5.1
+      }
+    },
+    {
+      "name": "Vietnam",
+      "quality": {
+        "presentYear": 78.4,
+        "pastYear": 76.0
+      },
+      "launchProductMix": {
+        "presentYear": 6.1,
+        "pastYear": 5.8
+      }
+    }
+  ]
+}

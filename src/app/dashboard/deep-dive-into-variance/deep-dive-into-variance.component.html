@@ -1,0 +1,34 @@
+<div>
+    <div class="chart-container">
+      <div style="background-color: lightgray;">
+        <h1 class="heading">Deep Dive into Variance</h1>
+      </div>
+    </div>
+    <label for="">Filter</label>
+    <mat-form-field style="width: 100%;">
+      <mat-label>Select</mat-label>
+      <mat-select [(value)]="selectedItemId" (selectionChange)="selectionChanged($event)">
+        <mat-option value="null">All</mat-option>
+        <mat-option *ngFor="let value of deepdiveData" [value]="value.id">
+          {{ value.name }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  
+    <div *ngIf="selectedItemId === null || selectedItemId === 1 || selectedItemId === 'null'">
+      <div class="chart-container">
+        <div style="background-color: red; border-radius: 10px;">
+          <h1 style="text-align: center; padding: 5px;">Country Analysis</h1>
+        </div>
+        <div>
+          <canvas id="MyChart"></canvas>
+        </div>
+      </div>
+    </div>
+    
+      <div *ngIf="selectedItemId === null || selectedItemId === 2 || selectedItemId === 'null'">
+        <h1>This is a Supplier Analysis</h1>
+      </div>
+  
+  </div>
+  

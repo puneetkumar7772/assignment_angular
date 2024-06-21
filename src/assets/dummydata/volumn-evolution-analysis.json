@@ -1,0 +1,32 @@
+{
+    "Volume_Evolution_per_Season_Typo_Summer_ETE": {
+      "ETE_21": {
+        "Top": 8174,
+        "Bottom": 10574,
+        "U2080": 9594
+      },
+      "ETE_22": {
+        "Top":10892,
+        "Bottom": 59088,
+        "U2080": 180419
+      },
+      "ETE_23": {
+        "Top": 68615,
+        "Bottom": 60599,
+        "U2080": 23153
+      }
+    },
+    "Volume_Evolution_per_Season_Typo_Summer_HIVER": {
+      "HIVER_21": {
+        "Top": 180940,
+        "Bottom": 59088,
+        "U2080": 37419
+      },
+      "HIVER_22": {
+        "Top": 68615,
+        "Bottom": 60599,
+        "U2080": 23153
+      }
+    }
+  }
+  

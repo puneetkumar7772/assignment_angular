@@ -1,0 +1,119 @@
+{
+    "Fabric Analysis": {
+      "All Fabric": {
+        "Supplier Working on Top 10 Fabrics (unique count for each fabric)": {
+          "2023": 243,
+          "2022": 243,
+          "Diff": 0,
+          "Fabrics": [
+            {
+              "Fabric": "SYNTHETIC_WJ_22",
+              "Composition": "COTTON 100.00%",
+              "2023 Supplier": "CHINA",
+              "2022 Supplier": "CHINA",
+              "Diff %": "62.6%"
+            },
+            {
+              "Fabric": "DENIM_POLY_ST_111",
+              "Composition": "POLYESTER 100.00%",
+              "2023 Supplier": "PAKISTAN",
+              "2022 Supplier": "PAKISTAN",
+              "Diff %": "21.6%"
+            },
+            {
+              "Fabric": "VISCOSE_PL_001",
+              "Composition": "COTTON 100.00%",
+              "2023 Supplier": "CHINA",
+              "2022 Supplier": "CHINA",
+              "Diff %": "24.6%"
+            },
+            {
+              "Fabric": "DENIM_POLY_ST_111",
+              "Composition": "VISCOSE 100.00%",
+              "2023 Supplier": "PAKISTAN",
+              "2022 Supplier": "PAKISTAN",
+              "Diff %": "21.6%"
+            },
+            {
+              "Fabric": "CORDUROY_009",
+              "Composition": "COTTON 100.00%",
+              "2023 Supplier": "CHINA",
+              "2022 Supplier": "CHINA",
+              "Diff %": "56.2%"
+            },
+            {
+              "Fabric": "TWILL_183",
+              "Composition": "COTTON 98.00%, ELASTANE 2.00%",
+              "2023 Supplier": "BANGLADESH",
+              "2022 Supplier": "BANGLADESH",
+              "Diff %": "54.6%"
+            },
+            {
+              "Fabric": "DENIM_POLY_ST_111",
+              "Composition": "COTTON 99.00%, ELASTANE 1.00%",
+              "2023 Supplier": "PAKISTAN",
+              "2022 Supplier": "PAKISTAN",
+              "Diff %": "21.6%"
+            }
+          ]
+        },
+        "Volume on Top 10 Fabrics": {
+          "2023": 243,
+          "2022": 243,
+          "Diff": 0,
+          "Fabrics": [
+            {
+              "Fabric": "SYNTHETIC_WJ_22",
+              "Composition": "COTTON 100.00%",
+              "2023 Supplier": "CHINA",
+              "2022 Supplier": "CHINA",
+              "Diff %": "62.6%"
+            },
+            {
+              "Fabric": "DENIM_POLY_ST_111",
+              "Composition": "POLYESTER 100.00%",
+              "2023 Supplier": "PAKISTAN",
+              "2022 Supplier": "PAKISTAN",
+              "Diff %": "21.6%"
+            },
+            {
+              "Fabric": "VISCOSE_PL_001",
+              "Composition": "COTTON 100.00%",
+              "2023 Supplier": "CHINA",
+              "2022 Supplier": "CHINA",
+              "Diff %": "24.6%"
+            },
+            {
+              "Fabric": "DENIM_POLY_ST_111",
+              "Composition": "VISCOSE 100.00%",
+              "2023 Supplier": "PAKISTAN",
+              "2022 Supplier": "PAKISTAN",
+              "Diff %": "21.6%"
+            },
+            {
+              "Fabric": "CORDUROY_009",
+              "Composition": "COTTON 100.00%",
+              "2023 Supplier": "CHINA",
+              "2022 Supplier": "CHINA",
+              "Diff %": "56.2%"
+            },
+            {
+              "Fabric": "TWILL_183",
+              "Composition": "COTTON 98.00%, ELASTANE 2.00%",
+              "2023 Supplier": "BANGLADESH",
+              "2022 Supplier": "BANGLADESH",
+              "Diff %": "54.6%"
+            },
+            {
+              "Fabric": "DENIM_POLY_ST_111",
+              "Composition": "COTTON 99.00%, ELASTANE 1.00%",
+              "2023 Supplier": "PAKISTAN",
+              "2022 Supplier": "PAKISTAN",
+              "Diff %": "21.6%"
+            }
+          ]
+        }
+      }
+    }
+  }
+  
