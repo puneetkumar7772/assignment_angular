@@ -1,110 +1,55 @@
-{
-    "suppliers": [
-      {
-        "name": "PT WINIA T. GARMENT",
-        "country": "Indonesia",
-        "percentage": "12.9%",
-        "supplier_tier": "K2",
-        "score": 70.2,
-        "quality": {
-          "HWB22": 16309,
-          "HWB23": 19999
-        },
-        "landed_price": {
-          "HWB22": 0.67,
-          "ET22/23": 0.65,
-          "HWB23": 0.59
-        },
-        "performance": {
-          "operational": 71.8,
-          "compliance": 82.0,
-          "legal_finance": 89.3
-        }
-      },
-      {
-        "name": "COTTON CLUB (BD) LIMITED",
-        "country": "Bangladesh",
-        "percentage": "12.9%",
-        "supplier_tier": "K1",
-        "score": 70.2,
-        "quality": {
-          "HWB22": 18815,
-          "HWB23": 21967
-        },
-        "landed_price": {
-          "HWB22": 3.07,
-          "ET22/23": 2.85,
-          "HWB23": 2.82
-        },
-        "performance": {
-          "operational": 83.1,
-          "compliance": 78.2,
-          "legal_finance": 80.7
-        }
-      },
-      {
-        "name": "CONCEPT D LTD",
-        "country": "Hong-Kong",
-        "percentage": "12.9%",
-        "supplier_tier": "K1",
-        "score": 70.2,
-        "quality": {
-          "HWB22": 16809,
-          "HWB23": 19999
-        },
-        "landed_price": {
-          "HWB22": 0.67,
-          "ET22/23": 0.65,
-          "HWB23": 0.59
-        },
-        "performance": {
-          "operational": 99.2,
-          "compliance": 87.3,
-          "legal_finance": 93.6
-        }
-      },
-      {
-        "name": "NANJING EAGLE EMPEROR C.",
-        "country": "Indonesia",
-        "percentage": "12.9%",
-        "supplier_tier": "K2",
-        "score": 70.2,
-        "quality": {
-          "HWB22": 10144,
-          "HWB23": 20614
-        },
-        "landed_price": {
-          "HWB22": 2.35,
-          "ET22/23": 1.85,
-          "HWB23": 1.94
-        },
-        "performance": {
-          "operational": 71.8,
-          "compliance": 82.0,
-          "legal_finance": 89.3
-        }
-      },
-      {
-        "name": "JINJIJIA BAHE GARME. CO. LT.",
-        "country": "China",
-        "percentage": "12.9%",
-        "supplier_tier": "K1",
-        "score": 70.2,
-        "quality": {
-          "HWB22": 10725,
-          "HWB23": 10270
-        },
-        "landed_price": {
-          "HWB22": 0.67,
-          "ET22/23": 0.65,
-          "HWB23": 0.59
-        },
-        "performance": {
-          "operational": 71.8,
-          "compliance": 82.0,
-          "legal_finance": 89.3
-        }
+[
+    {
+      "supplier": "PT Wintai Garment",
+      "market_share": "10.7%",
+      "country": "Indonesia",
+      "percentage_basic": "12.9%",
+      "supplier_tier": "K2",
+      "overall_score": 70.2,
+      "quality": {
+        "HVER23": 16809,
+        "ETE23": 0,
+        "HVER22": 19999
       }
-    ]
-  }
+    },
+    {
+      "supplier": "Cotton Club (BD) Limited",
+      "market_share": "8.0%",
+      "country": "Bangladesh",
+      "percentage_basic": "12.9%",
+      "supplier_tier": "K1",
+      "overall_score": 70.2,
+      "quality": {
+        "HVER23": 18615,
+        "ETE23": 0,
+        "HVER22": 21967
+      }
+    },
+    {
+      "supplier": "Concept & LTD",
+      "market_share": "7.9%",
+      "country": "Hong Kong",
+      "percentage_basic": "12.9%",
+      "supplier_tier": "K2",
+      "overall_score": 70.2,
+      "quality": {
+        "HVER23": 16809,
+        "ETE23": 0,
+        "HVER22": 19999
+      }
+    },
+    {
+      "supplier": "Nanjing Eagle Emperor K.",
+      "market_share": "7.1%",
+      "country": "Indonesia",
+      "percentage_basic": "12.9%",
+      "supplier_tier": "K2",
+      "overall_score": 70.2,
+      "quality": {
+        "HVER23": 10144,
+        "ETE23": 0,
+        "HVER22": 20814
+      }
+    }
   
+  ]

@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+ ## view the project charts
+
+ Need to view the project charts to need install
+  ```` npm install chart.js ```
+
+ ## project description 
+
+ In summary, the project utilized dummy JSON data and integrated Chart.js for dynamic and interactive data visualization. The data was fetched via Angular services and displayed in various chart formats, including bar, pie, and line charts. Routing was added for better navigation, ensuring a seamless user experience.
+
+

@@ -1,1 +1,33 @@
-<p>supplier-analysis works!</p>
+<div class="header-all-fabric">
+    <h2 style="text-align: center;padding: 5px;">Supplier Analysis</h2>
+ </div>
+<div class="supplier-container" *ngIf="supplierData">
+  <div *ngFor="let supplier of supplierData; let i = index" class="supplier-card">
+    <h3 class="data-load-header">{{ supplier.supplier }} ({{ supplier.market_share }})</h3>
+    <div class="country-data">
+       <div>
+        <h3>Country</h3>
+        <h3>{{ supplier.country }}</h3>
+       </div>
+     <div>
+        <p>% of Basic</p>
+        <p>{{ supplier.percentage_basic }}</p>
+     </div>
+  
+    </div>
+<div class="country-data">
+    <div>
+        <p>Supplier Tier</p>
+        <p>{{ supplier.supplier_tier }}</p>
+    </div>
+    <div>
+        <p>Overall Supplier Score</p>
+        <p>{{ supplier.overall_score }}</p>
+    </div>
+</div>
+    <div class="graph">
+      <h2 class="data-load-header" style="margin-top: 7px;background-color: lightgray;color: black;">Quality (in pcs'000')</h2>
+      <canvas id="chart{{i}}"></canvas>
+    </div>
+  </div>
+</div>

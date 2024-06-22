@@ -1,3 +1,24 @@
-<div>
-    <canvas id="MyChart"></canvas>
+<div class="header-all-fabric">
+    <h2 style="text-align: center;padding: 5px;">Country Analysis</h2>
+ </div>
+<div class="container">
+    <div class="row" *ngIf="supplierData">
+      <div class="col" *ngFor="let supplier of supplierData" class="country-data">
+        <!-- <div class="card"> -->
+          <h2 class="data-load-header">{{ supplier.country }} ({{ supplier.market_share }})</h2>
+          <div class="info">
+            <p>No. of Supplier Sites</p>
+            <p><strong>{{ supplier.no_of_supplier_sites }}</strong></p>
+            <p>Lead time</p>
+            <p>
+                <strong>{{ supplier.lead_time }}</strong>
+            </p>
+          </div>
+          <div class="chart-container">
+            <h3 class="data-load-header" style="margin-top: 7px;background-color: lightgray;color: black;">Quality (In pcs '000)</h3>
+            <canvas id="{{ supplier.country }}" width="400" height="200"></canvas>
+          </div>
+        <!-- </div> -->
+      </div>
+    </div>
   </div>

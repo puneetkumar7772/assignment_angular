@@ -1,0 +1,41 @@
+.supplier-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .supplier-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 10px;
+    width: 22%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .supplier-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .supplier-card p {
+    margin: 5px 0;
+  }
+  .country-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    margin-top: 4px;
+  }
+
+  @media screen and (max-width:900px) {
+    .supplier-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .supplier-card{
+        width: 100%;
+    }
+    
+  }

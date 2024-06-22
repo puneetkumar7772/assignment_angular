@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Chart } from 'chart.js';
+import { Chart, registerables } from 'chart.js';
 import { DataService } from 'src/app/services/data.service';
 
 @Component({
@@ -8,47 +8,49 @@ import { DataService } from 'src/app/services/data.service';
   styleUrls: ['./country-analysis.component.css']
 })
 export class CountryAnalysisComponent {
-  constructor(private dataService: DataService) {}
+  supplierData: any;
+
+  constructor(private dataservice: DataService) {
+    Chart.register(...registerables);
+
+  }
 
   ngOnInit(): void {
-    this.dataService.getData().subscribe(data => {
-      this.createChart(data);
+    this.dataservice.getData().subscribe(data => {
+      this.supplierData = data;
     });
   }
 
-  createChart(data: any): void {
-    const ctx = document.getElementById('MyChart') as HTMLCanvasElement;
+  ngAfterViewInit(): void {
+    setTimeout(() => {
+      this.supplierData.forEach((supplier: any) => {
+        this.createChart(supplier);
+      });
+    }, 500);
+  }
 
-    new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: data.Data[0]['Group Analysis'].map((entry: any) => entry.Week),
-        datasets: [
-          {
-            label: `${data.Data[0].Metric} - Group Analysis`,
-            data: data.Data[0]['Group Analysis'].map((entry: any) => entry.Value),
-            backgroundColor: '#3e95cd'
-          },
-          {
-            label: `${data.Data[0].Metric} - Drop into Volume`,
-            data: data.Data[0]['Drop into Volume'].map((entry: any) => entry.Value),
-            backgroundColor: '#8e5ea2'
-          }
-        ]
-      },
-      options: {
-       plugins:{
-        title: {
-          display: true,
-          text: data.Data[0].Metric
+  createChart(supplier: any): void {
+    const ctx = document.getElementById(supplier.country) as HTMLCanvasElement;
+    if (ctx) {
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['HIVER23', 'ETE23', 'HIVER22'],
+          datasets: [{
+            label: 'Quality (in pcs "000")',
+            data: [supplier.quality.HIVER23, supplier.quality.ETE23, supplier.quality.HIVER22],
+            backgroundColor: ['#76c7c0', '#f9c74f', '#f94144']
+          }]
         },
-       },
-        scales: {
-          y: {
-            beginAtZero: true
+        options: {
+          responsive: true,
+          scales: {
+            y: {
+              beginAtZero: true
+            }
           }
         }
-      }
-    });
+      });
+    }
   }
 }

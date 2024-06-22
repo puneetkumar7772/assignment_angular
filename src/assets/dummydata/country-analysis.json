@@ -1,69 +1,47 @@
-{
-  "Data": [
-    {
-      "Metric": "Capture Proportion",
-      "Group Analysis": [
-        {"Week": "4/2/22", "Value": 99.7},
-        {"Week": "4/3/22", "Value": 98.3},
-        {"Week": "4/4/22", "Value": 97.1}
-      ],
-      "Drop into Volume": [
-        {"Week": "4/2/22", "Value": 1000},
-        {"Week": "4/3/22", "Value": 1025},
-        {"Week": "4/4/22", "Value": 1030}
-      ]
-    },
-    {
-      "Metric": "Engagement",
-      "Group Analysis": [
-        {"Week": "4/2/22", "Value": 75.1},
-        {"Week": "4/3/22", "Value": 72.8},
-        {"Week": "4/4/22", "Value": 70.5}
-      ],
-      "Drop into Volume": [
-        {"Week": "4/2/22", "Value": 800},
-        {"Week": "4/3/22", "Value": 850},
-        {"Week": "4/4/22", "Value": 870}
-      ]
-    },
-    {
-      "Metric": "Click Through",
-      "Group Analysis": [
-        {"Week": "4/2/22", "Value": 60.7},
-        {"Week": "4/3/22", "Value": 59.4},
-        {"Week": "4/4/22", "Value": 58.1}
-      ],
-      "Drop into Volume": [
-        {"Week": "4/2/22", "Value": 750},
-        {"Week": "4/3/22", "Value": 780},
-        {"Week": "4/4/22", "Value": 790}
-      ]
-    },
-    {
-      "Metric": "Conversion",
-      "Group Analysis": [
-        {"Week": "4/2/22", "Value": 45.6},
-        {"Week": "4/3/22", "Value": 44.3},
-        {"Week": "4/4/22", "Value": 43.0}
-      ],
-      "Drop into Volume": [
-        {"Week": "4/2/22", "Value": 600},
-        {"Week": "4/3/22", "Value": 630},
-        {"Week": "4/4/22", "Value": 640}
-      ]
-    },
-    {
-      "Metric": "New Users",
-      "Group Analysis": [
-        {"Week": "4/2/22", "Value": 30.9},
-        {"Week": "4/3/22", "Value": 30.2},
-        {"Week": "4/4/22", "Value": 29.5}
-      ],
-      "Drop into Volume": [
-        {"Week": "4/2/22", "Value": 500},
-        {"Week": "4/3/22", "Value": 520},
-        {"Week": "4/4/22", "Value": 530}
-      ]
+[
+  {
+    "country": "Bangladesh",
+    "market_share": "32.7%",
+    "no_of_supplier_sites": 21,
+    "lead_time": 59.6,
+    "quality": {
+      "HIVER23": 18218,
+      "ETE23": 16809,
+      "HIVER22": 19999
     }
-  ]
-}
+  },
+  {
+    "country": "China",
+    "market_share": "31.0%",
+    "no_of_supplier_sites": 47,
+    "lead_time": 68.5,
+    "quality": {
+      "HIVER23": 16131,
+      "ETE23": 18615,
+      "HIVER22": 21967
+    }
+  },
+  {
+    "country": "India",
+    "market_share": "15.1%",
+    "no_of_supplier_sites": 17,
+    "lead_time": 63.7,
+    "quality": {
+      "HIVER23": 18218,
+      "ETE23": 16809,
+      "HIVER22": 19999
+    }
+  },
+  {
+    "country": "Cambodia",
+    "market_share": "6.3%",
+    "no_of_supplier_sites": 12,
+    "lead_time": 67.7,
+    "quality": {
+      "HIVER23": 9541,
+      "ETE23": 10144,
+      "HIVER22": 20814
+    }
+  }
+]
+
