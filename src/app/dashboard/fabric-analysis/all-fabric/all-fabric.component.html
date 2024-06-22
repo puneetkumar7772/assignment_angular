@@ -1,0 +1,73 @@
+  
+    <div class="all-fabric">
+        <div class="header-all-fabric">
+          <h2 style="text-align: center;padding: 5px;">All Fabric</h2>
+       </div>
+      <div *ngIf="supplierWorkingData && volumeData" class="all-fabric-table">
+       <div>
+         <h2 class="data-header">Supplier Working on Top 10 Fabrics(Unique count for each fabric)</h2>
+        <table mat-table [dataSource]="supplierWorkingData" class="mat-elevation-z8">
+          <ng-container matColumnDef="Fabric">
+            <th mat-header-cell *matHeaderCellDef> Fabric </th>
+            <td mat-cell *matCellDef="let element"> {{element.Fabric}} </td>
+          </ng-container>
+      
+          <ng-container matColumnDef="Composition">
+            <th mat-header-cell *matHeaderCellDef> Composition </th>
+            <td mat-cell *matCellDef="let element"> {{element.Composition}} </td>
+          </ng-container>
+      
+          <ng-container matColumnDef="2023 Supplier">
+            <th mat-header-cell *matHeaderCellDef> 2023 Supplier </th>
+            <td mat-cell *matCellDef="let element"> {{element['2023 Supplier']}} </td>
+          </ng-container>
+      
+          <ng-container matColumnDef="2022 Supplier">
+            <th mat-header-cell *matHeaderCellDef> 2022 Supplier </th>
+            <td mat-cell *matCellDef="let element"> {{element['2022 Supplier']}} </td>
+          </ng-container>
+      
+          <ng-container matColumnDef="Diff %">
+            <th mat-header-cell *matHeaderCellDef> Diff % </th>
+            <td mat-cell *matCellDef="let element"> {{element['Diff %']}} </td>
+          </ng-container>
+      
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+       </div>
+      
+        <div>
+          <h2 class="data-header">Volume on Top 10 Fabrics</h2>
+        <table mat-table [dataSource]="volumeData" class="mat-elevation-z8">
+          <ng-container matColumnDef="Fabric">
+            <th mat-header-cell *matHeaderCellDef> Fabric </th>
+            <td mat-cell *matCellDef="let element"> {{element.Fabric}} </td>
+          </ng-container>
+      
+          <ng-container matColumnDef="Composition">
+            <th mat-header-cell *matHeaderCellDef> Composition </th>
+            <td mat-cell *matCellDef="let element"> {{element.Composition}} </td>
+          </ng-container>
+      
+          <ng-container matColumnDef="2023 Supplier">
+            <th mat-header-cell *matHeaderCellDef> 2023 Supplier </th>
+            <td mat-cell *matCellDef="let element"> {{element['2023 Supplier']}} </td>
+          </ng-container>
+      
+          <ng-container matColumnDef="2022 Supplier">
+            <th mat-header-cell *matHeaderCellDef> 2022 Supplier </th>
+            <td mat-cell *matCellDef="let element"> {{element['2022 Supplier']}} </td>
+          </ng-container>
+      
+          <ng-container matColumnDef="Diff %">
+            <th mat-header-cell *matHeaderCellDef> Diff % </th>
+            <td mat-cell *matCellDef="let element"> {{element['Diff %']}} </td>
+          </ng-container>
+      
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+        </div>
+      </div>
+    </div>

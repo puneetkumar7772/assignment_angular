@@ -12,6 +12,9 @@ export class DataService {
   getData(): Observable<any> {
     return this.http.get('/assets/dummydata/country-analysis.json');
   }
+  getsupplierData(): Observable<any> {
+    return this.http.get('/assets/dummydata/supplier-analysis.json');
+  }
   getfabricsData(): Observable<any> {
     return this.http.get('/assets/dummydata/all-fabricsdata.json');
   }
@@ -24,5 +27,8 @@ export class DataService {
   }
   getVolumnEvolutionData(): Observable<any> {
     return this.http.get('/assets/dummydata/volumn-evolution-analysis.json');
+  }
+  getLeadTimeAnalysisData(): Observable<any> {
+    return this.http.get('/assets/dummydata/lead-time-analysis.json');
   }
 }

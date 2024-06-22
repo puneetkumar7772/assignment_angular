@@ -11,3 +11,67 @@ html, body { height: 100%; }
     text-align: center;
     padding: 5px;
 }
+
+table {
+    width:100%;
+  }
+  
+  .mat-elevation-z8 {
+    margin-bottom: 20px;
+  }
+
+.all-fabric-table{
+  display: flex;
+  gap: 10px;
+  margin: 0 5px;
+ 
+}
+.header-all-fabric{
+  margin: 0 5px;
+  border-radius: 3px;
+  background-color: aqua;
+}
+.data-header{
+  background-color: lightgray;
+  border-radius: 2px;
+  text-align: center;
+  padding: 4px;
+}
+.nominated-graph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.nominated-data-table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.table_data{
+  width: 33%;
+  overflow-x: scroll;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 7px 5px;
+}
+.mat-header-cell{
+  background-color: black;
+  color: #fff;
+}
+.load-price-data{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0;
+}
+.data-load-header{
+  background-color:#444;
+  border-radius: 2px;
+  text-align: center;
+  padding: 4px;
+  color: #fff;
+}

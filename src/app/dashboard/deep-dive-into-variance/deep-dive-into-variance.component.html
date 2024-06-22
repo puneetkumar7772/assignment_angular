@@ -1,4 +1,4 @@
-<div>
+<!-- <div>
     <div class="chart-container">
       <div style="background-color: lightgray;">
         <h1 class="heading">Deep Dive into Variance</h1>
@@ -31,4 +31,21 @@
       </div>
   
   </div>
+   -->
+
+   <div>
+    <div class="fabric-analysis-container">
+      <mat-toolbar color="primary" class="toolbar">
+        <span>Deep dive into variance</span>
+        <span class="spacer"></span>
+        <nav>
+          <a mat-button routerLink="country-analysis">Country analysis</a>
+          <a mat-button routerLink="supplier-analysis">Suppiler analysis</a>
+        </nav>
+      </mat-toolbar>
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
   
+        

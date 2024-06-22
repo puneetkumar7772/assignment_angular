@@ -1,59 +1,69 @@
 {
-  "countries": [
+  "Data": [
     {
-      "name": "Bangladesh",
-      "quality": {
-        "presentYear": 70.4,
-        "pastYear": 67.2
-      },
-      "launchProductMix": {
-        "presentYear": 4.8,
-        "pastYear": 4.6
-      }
+      "Metric": "Capture Proportion",
+      "Group Analysis": [
+        {"Week": "4/2/22", "Value": 99.7},
+        {"Week": "4/3/22", "Value": 98.3},
+        {"Week": "4/4/22", "Value": 97.1}
+      ],
+      "Drop into Volume": [
+        {"Week": "4/2/22", "Value": 1000},
+        {"Week": "4/3/22", "Value": 1025},
+        {"Week": "4/4/22", "Value": 1030}
+      ]
     },
     {
-      "name": "China",
-      "quality": {
-        "presentYear": 65.5,
-        "pastYear": 64.0
-      },
-      "launchProductMix": {
-        "presentYear": 5.0,
-        "pastYear": 4.7
-      }
+      "Metric": "Engagement",
+      "Group Analysis": [
+        {"Week": "4/2/22", "Value": 75.1},
+        {"Week": "4/3/22", "Value": 72.8},
+        {"Week": "4/4/22", "Value": 70.5}
+      ],
+      "Drop into Volume": [
+        {"Week": "4/2/22", "Value": 800},
+        {"Week": "4/3/22", "Value": 850},
+        {"Week": "4/4/22", "Value": 870}
+      ]
     },
     {
-      "name": "India",
-      "quality": {
-        "presentYear": 82.6,
-        "pastYear": 80.4
-      },
-      "launchProductMix": {
-        "presentYear": 6.5,
-        "pastYear": 6.3
-      }
+      "Metric": "Click Through",
+      "Group Analysis": [
+        {"Week": "4/2/22", "Value": 60.7},
+        {"Week": "4/3/22", "Value": 59.4},
+        {"Week": "4/4/22", "Value": 58.1}
+      ],
+      "Drop into Volume": [
+        {"Week": "4/2/22", "Value": 750},
+        {"Week": "4/3/22", "Value": 780},
+        {"Week": "4/4/22", "Value": 790}
+      ]
     },
     {
-      "name": "Pakistan",
-      "quality": {
-        "presentYear": 75.8,
-        "pastYear": 72.5
-      },
-      "launchProductMix": {
-        "presentYear": 5.3,
-        "pastYear": 5.1
-      }
+      "Metric": "Conversion",
+      "Group Analysis": [
+        {"Week": "4/2/22", "Value": 45.6},
+        {"Week": "4/3/22", "Value": 44.3},
+        {"Week": "4/4/22", "Value": 43.0}
+      ],
+      "Drop into Volume": [
+        {"Week": "4/2/22", "Value": 600},
+        {"Week": "4/3/22", "Value": 630},
+        {"Week": "4/4/22", "Value": 640}
+      ]
     },
     {
-      "name": "Vietnam",
-      "quality": {
-        "presentYear": 78.4,
-        "pastYear": 76.0
-      },
-      "launchProductMix": {
-        "presentYear": 6.1,
-        "pastYear": 5.8
-      }
+      "Metric": "New Users",
+      "Group Analysis": [
+        {"Week": "4/2/22", "Value": 30.9},
+        {"Week": "4/3/22", "Value": 30.2},
+        {"Week": "4/4/22", "Value": 29.5}
+      ],
+      "Drop into Volume": [
+        {"Week": "4/2/22", "Value": 500},
+        {"Week": "4/3/22", "Value": 520},
+        {"Week": "4/4/22", "Value": 530}
+      ]
     }
   ]
 }
